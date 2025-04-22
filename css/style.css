@@ -1,10 +1,16 @@
 /********** Template CSS **********/
 :root {
-    --primary: #DB262B;
+    --primary: #ffd100;
+    --primary2: #DB262B;
     --secondary: #545454;
     --light: #FDF5EB;
     --dark: #1E1916;
 }
+
+::placeholder {
+    color: #fff4c2;
+    opacity: 1; /* Firefox */
+  }
 
 h4,
 h5,
@@ -255,7 +261,7 @@ h6,
 }
 
 .product-item:hover * {
-    color: var(--light);
+    color: var(--dark);
 }
 
 .product-item:hover .border-primary {
