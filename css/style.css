@@ -33,6 +33,55 @@ p{
     font-family: "Poppins", sans-serif;
 }
 
+.main-image{
+    max-height: 1100px; 
+    margin-top: -50%; 
+    margin-left: -50%;
+}
+
+.logo{
+    max-height: 75px; 
+    margin-left: 100px;
+}
+
+.hero-section{
+    margin-left: -12.5%;
+}
+
+.red-icon{
+    max-width: 100px;
+}
+
+@media (max-width: 911px) {
+  .main-image {
+    /* Scales the image down to 25% of its original size (100% - 75% = 25%) */
+    transform: scale(1);
+    /* Adjust origin of transformation if needed, e.g., to scale from the center */
+    transform-origin: center center;
+    /* Ensure the image remains a block element for proper scaling */
+    display: block;
+    /* Optionally, adjust max-width to prevent overflow if the original image is very large */
+    max-width: 100%;
+    /* Maintain aspect ratio */
+    height: auto;
+    margin-top: -50%; 
+    margin-left: 0%;
+  }
+
+  .logo{
+    max-height: 40px; 
+    margin-left: 10px;
+    }
+.hero-section{
+    margin-left: 0%;
+}
+
+}
+
+
+
+
+
 .bebas-neue-regular {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
