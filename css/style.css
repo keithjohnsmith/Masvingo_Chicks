@@ -52,6 +52,10 @@ p{
     max-width: 100px;
 }
 
+.red-icon2{
+    max-width: 125px;
+}
+
 @media (max-width: 911px) {
   .main-image {
     /* Scales the image down to 25% of its original size (100% - 75% = 25%) */
