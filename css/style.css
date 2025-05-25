@@ -56,7 +56,18 @@ p{
     max-width: 125px;
 }
 
-@media (max-width: 911px) {
+@media (min-width: 998px) and (max-width: 1790px){
+   .hero-section{
+    margin-left: 0px;
+} 
+    .nav-link{
+        font-size: x-small;
+    }
+}
+
+
+
+@media (max-width: 1024px) {
   .main-image {
     /* Scales the image down to 25% of its original size (100% - 75% = 25%) */
     transform: scale(1);
@@ -76,11 +87,17 @@ p{
     max-height: 40px; 
     margin-left: 10px;
     }
-.hero-section{
+    .hero-section{
     margin-left: 0%;
-}
+    }
+
+    .mobile-about{
+    visibility: hidden;
+    margin-top: -25%;
+    }
 
 }
+
 
 
 
